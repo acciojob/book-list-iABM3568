@@ -12,5 +12,38 @@
 </script>
 
 </body>
+	<!-- Heading -->
+    <h1>My<span>Book</span>List</h1>
+    
+    <!-- Form Section -->
+    <div class="form-group">
+        <label for="title">Title</label>
+        <input type="text" id="title" placeholder="Enter book title">
+        
+        <label for="author">Author</label>
+        <input type="text" id="author" placeholder="Enter author name">
+        
+        <label for="isbn">ISBN#</label>
+        <input type="text" id="isbn" placeholder="Enter ISBN number">
+        
+        <button id="submit">Add Book</button>
+    </div>
+    
+    <!-- Table Section -->
+    <div class="table-container">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>ISBN#</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="book-list">
+                <!-- Books will be added here dynamically -->
+            </tbody>
+        </table>
+    </div>
 
 </html>
